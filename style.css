@@ -20,6 +20,10 @@ header {
 header .imgbox {
   width: 35px;
 }
+header nav {
+  position: relative;
+  left: 400px;
+}
 header nav a {
   font-size: 20px;
   color: #8c8999;
@@ -32,15 +36,6 @@ header nav .home-color {
   header .imgbox {
     width: 30px;
   }
-}
-@media screen and (max-width: 992px) {
-  header nav a {
-    display: none;
-  }
-  header .imgbox {
-    position: relative;
-    right: 50px;
-  }
   header .menu .btn .icon {
     display: flex;
     color: #979d9e;
@@ -49,6 +44,15 @@ header nav .home-color {
     border: solid #5a5e65;
     border-width: 1px;
     border-radius: 6px;
+  }
+}
+@media screen and (max-width: 990px) {
+  header nav a {
+    display: none;
+  }
+  header .imgbox {
+    position: relative;
+    right: 50px;
   }
 }
 
@@ -140,13 +144,17 @@ header nav .home-color {
   border-radius: 5px;
 }
 #thehome .imgbox {
-  width: 500px;
+  width: 450px;
 }
 @media screen and (max-width: 768px) {
   #thehome .imgbox {
     width: 440px;
   }
+  #thehome .textbox {
+    text-align: center;
+  }
   #thehome .textbox h1 {
+    padding-left: 70px;
     color: #38b6c1;
     font-size: 58px;
     font-weight: 700;
@@ -154,16 +162,16 @@ header nav .home-color {
   }
   #thehome .textbox h5 {
     color: #676f8b;
+    padding-left: 35px;
     font-size: 16px;
-    margin: 25px 75px 50px 0;
     line-height: 1.3;
   }
   #thehome .textbox .btn {
-    padding: 11px 28px;
     background-color: #38b6c1;
     color: white;
     font-size: 18px;
     border-radius: 5px;
+    margin: 0 30px 55px 0;
   }
 }
 
@@ -189,6 +197,12 @@ header nav .home-color {
   color: #676f8b;
   line-height: 1.4;
 }
+@media screen and (max-width: 768px) {
+  #works .imgbox {
+    position: relative;
+    left: 90px;
+  }
+}
 
 #order .imgbox {
   width: 590px;
@@ -210,6 +224,11 @@ header nav .home-color {
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  #order .textbox {
+    text-align: center;
+  }
 }
 
 #browse .textbox {
@@ -309,6 +328,17 @@ header nav .home-color {
 #callour .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 768px) {
+  #callour .textbox {
+    text-align: center;
+  }
+  #callour .textbox .btn {
+    margin-bottom: 65px;
+  }
+  #callour .imgbox {
+    padding-right: 60px;
+  }
+}
 
 #support .textbox h1 {
   font-size: 55px;
@@ -329,4 +359,26 @@ header nav .home-color {
 }
 #support .bgc {
   background-color: #38b6c1;
+}
+@media screen and (max-width: 768px) {
+  #support .bgc {
+    width: 750px;
+    height: 300px;
+  }
+  #support .textbox h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 600;
+  }
+  #support .imgbox {
+    position: relative;
+    right: 11px;
+    width: 540px;
+    height: 350px;
+    margin-bottom: 40px;
+  }
+  #support .btn {
+    position: relative;
+    right: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */

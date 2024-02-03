@@ -3,6 +3,8 @@ header
     .imgbox
         width: 35px
     nav
+        position: relative
+        left: 400px
         a
             font-size: 20px
             color: #8c8999
@@ -13,14 +15,6 @@ header
     @media screen and ( max-width: 768px  )
         .imgbox
             width: 30px
-
-    @media screen and ( max-width: 992px  )
-        nav
-            a
-                display: none
-        .imgbox
-            position: relative
-            right: 50px
         .menu
             .btn
                 .icon
@@ -33,3 +27,11 @@ header
                     border: solid #5a5e65
                     border-width: 1px
                     border-radius: 6px
+
+    @media screen and ( max-width: 990px  )
+        nav
+            a
+                display: none
+        .imgbox
+            position: relative
+            right: 50px
