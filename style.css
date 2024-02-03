@@ -33,6 +33,24 @@ header nav .home-color {
     width: 30px;
   }
 }
+@media screen and (max-width: 992px) {
+  header nav a {
+    display: none;
+  }
+  header .imgbox {
+    position: relative;
+    right: 50px;
+  }
+  header .menu .btn .icon {
+    display: flex;
+    color: #979d9e;
+    font-weight: 500;
+    padding: 6px 12px;
+    border: solid #5a5e65;
+    border-width: 1px;
+    border-radius: 6px;
+  }
+}
 
 #beautiful {
   background-color: #f4fafb;
@@ -58,7 +76,7 @@ header nav .home-color {
   background-color: #38b6c1;
   color: white;
 }
-#beautiful .box .imgbox {
+#beautiful .box .imgboxx {
   width: 140px;
   margin: 20px 0 10px;
 }
@@ -66,30 +84,36 @@ header nav .home-color {
   font-size: 20px;
 }
 @media screen and (max-width: 768px) {
+  #beautiful .box {
+    text-align: center;
+  }
   #beautiful .box h1 {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 55px;
     margin-right: 80px;
   }
   #beautiful .box h5 {
     color: #676f8b;
-    font-size: 15px;
+    font-size: 18px;
     margin: 25px 75px 50px 0;
     line-height: 1.3;
   }
   #beautiful .box .btn {
-    padding: 13px 30px;
+    margin-right: 50px;
     font-size: 14px;
     border-radius: 5px;
     background-color: #38b6c1;
     color: white;
   }
-  #beautiful .box .imgbox {
-    width: 90px;
-    margin: 20px 0 10px;
+  #beautiful .box .imgboxx {
+    width: 140px;
+    position: relative;
+    left: 155px;
   }
   #beautiful .box h4 {
     font-size: 15px;
+    margin-bottom: 70px;
+    padding-right: 30px;
   }
 }
 
