@@ -1,37 +1,19 @@
 header
     padding: 20px 0
     .imgbox
-        width: 35px
+        width: 40px
     nav
-        position: relative
-        left: 400px
         a
             font-size: 20px
             color: #8c8999
             margin-right: 30px
         .home-color
-            color: #38b6c1
-
-    @media screen and ( max-width: 768px  )
-        .imgbox
-            width: 30px
-        .menu
-            .btn
-                .icon
-
-                    display: flex
-                    color: #979d9e
-
-                    font-weight: 500
-                    padding: 6px 12px
-                    border: solid #5a5e65
-                    border-width: 1px
-                    border-radius: 6px
-
-    @media screen and ( max-width: 990px  )
+            color: #74bebc
+    .btn
+        background-color: #f2f2f4
+    @media (max-width: 991px)
         nav
-            a
-                display: none
-        .imgbox
-            position: relative
-            right: 50px
+            display: none
+    @media (min-width: 992px)
+        .btn
+            display: none
