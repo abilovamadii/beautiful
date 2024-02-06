@@ -71,6 +71,11 @@ header .menu {
 #beautiful .textbox h4 {
   font-size: 20px;
 }
+@media screen and (max-width: 992px) {
+  #beautiful .textbox {
+    text-align: center;
+  }
+}
 
 #thehome {
   background-color: #f1f8f9;
@@ -93,6 +98,14 @@ header .menu {
   border-radius: 5px;
   padding: 13px 30px;
 }
+@media screen and (max-width: 992px) {
+  #thehome .textbox {
+    text-align: center;
+  }
+  #thehome .textbox .btn {
+    margin-bottom: 30px;
+  }
+}
 
 #works h1 {
   font-weight: 700;
@@ -105,11 +118,11 @@ header .menu {
 }
 #works .box h4 {
   color: #676f8b;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.3;
 }
 #works .box h2 {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 700;
   margin-bottom: 9px;
 }
@@ -228,6 +241,11 @@ header .menu {
     width: 150px;
   }
 }
+@media (min-width: 768px) {
+  #browse .box .textbox {
+    padding-top: 50px;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   #browse .imgbox {
     width: 125px;
@@ -277,6 +295,9 @@ header .menu {
   background-color: #35b6c1;
 }
 @media (min-width: 369px) {
+  #support .textbox {
+    padding: 30px 0 35px;
+  }
   #support .textbox h1 {
     font-size: 45px;
   }
