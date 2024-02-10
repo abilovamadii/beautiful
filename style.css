@@ -154,26 +154,29 @@ header .menu {
 #browse {
   background-color: #f5fbfc;
 }
-#browse .col-md-12 .textbox h1 {
+#browse .textbox {
+  width: 500px;
+  text-align: center;
+}
+#browse .textbox h1 {
   font-weight: 700;
   font-size: 60px;
   color: #3cc1d8;
 }
-#browse .col-md-12 .textbox h4 {
+#browse .textbox h4 {
   font-size: 20px;
   color: #6c7480;
   margin: 20px 0;
   line-height: 1.2;
 }
-#browse .col-md-12 .textbox h4 span {
+#browse .textbox h4 span {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browse .col-12 .box .btn {
+#browse .btn {
   font-size: 18px;
   border: 0.5px solid #bdbdbd;
-  padding: 15px;
-  width: 150px;
+  padding: 12px 40px;
   margin: 0 20px;
   border-radius: 5px;
 }
@@ -181,76 +184,50 @@ header .menu {
   background-color: #3cc1d8;
   color: white;
 }
-#browse .col-lg-6 .box {
+#browse .box {
   background-color: #ffffff;
   padding: 20px;
+  margin: 5px;
 }
-#browse .col-lg-6 .box .imgbox {
+#browse .box .imgbox {
   border-radius: 10px;
+  width: 150px;
 }
-#browse .col-lg-6 .box .textbox .minibox h2 {
+#browse .box .textbox {
+  width: auto;
+  margin-left: 20px;
+  text-align: left;
+}
+#browse .box .textbox .minibox h2 {
   font-size: 22px;
   font-weight: 700;
 }
-#browse .col-lg-6 .box .textbox .minibox h5 {
+#browse .box .textbox .minibox h5 {
   color: #3cc1d8;
   font-size: 18px;
 }
-#browse .col-lg-6 .box .textbox p {
+#browse .box .textbox p {
   margin: 15px 0;
+  font-size: 16px;
   line-height: 1.2;
   color: rgba(35, 47, 66, 0.5215686275);
 }
-#browse .col-lg-6 .box .textbox .add input {
-  border: 1px solid #e1e1e1;
-  background-color: #f5fbfc;
-  width: 50px;
-  margin-right: 10px;
+#browse .box .textbox .add {
+  display: flex;
 }
-#browse .col-lg-6 .box .textbox .add .btn {
+#browse .box .textbox .add input {
+  border: 1px solid #e1e1e1;
+  background-color: #e9e9e9;
+  width: 50px;
+}
+#browse .box .textbox .add .btn {
   background-color: #3cc1d8;
   color: white;
   padding: 7px 20px;
 }
-#browse .menu {
-  padding: 17px 53px;
+#browse .big {
+  padding: 16px 54px;
   margin-top: 50px;
-}
-@media (max-width: 575px) {
-  #browse .imgbox {
-    align-self: start;
-    width: 100%;
-  }
-  #browse .col-12 .box .btn {
-    width: 100%;
-    margin: 10px 20px;
-  }
-}
-@media (min-width: 576px) and (max-width: 767px) {
-  #browse .col-12 .box {
-    width: 100%;
-  }
-  #browse .col-12 .box .btn {
-    width: 225px;
-    margin: 5px 15px;
-  }
-}
-@media (min-width: 992px) {
-  #browse .imgbox {
-    align-self: center;
-    width: 150px;
-  }
-}
-@media (min-width: 768px) {
-  #browse .box .textbox {
-    padding-top: 50px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #browse .imgbox {
-    width: 125px;
-    align-self: flex-start;
-  }
 }
 
 #callour {
