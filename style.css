@@ -194,12 +194,13 @@ header .menu {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browse .btn {
+#browse .boxdemo .btn {
   font-size: 18px;
-  border: 0.5px solid #bdbdbd;
+  width: 150px;
   padding: 12px 40px;
-  margin: 0 20px;
   border-radius: 5px;
+  margin: 0 20px;
+  border: 0.5px solid #bdbdbd;
 }
 #browse .bgc {
   background-color: #3cc1d8;
@@ -249,6 +250,16 @@ header .menu {
 #browse .big {
   padding: 16px 54px;
   margin-top: 50px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #browse .boxdemo .btn {
+    margin: 5px 15px;
+  }
+}
+@media (max-width: 575px) {
+  #browse .boxdemo .btn {
+    margin: 10px 20px;
+  }
 }
 
 #callour {
